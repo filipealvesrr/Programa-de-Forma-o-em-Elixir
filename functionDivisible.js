@@ -1,6 +1,6 @@
 function valueDivisible(shoppingList, listEmails) { // lista de email pode ser vazia
-    qtdEmails = listEmails.length
-    listPay = {}
+    let qtdEmails = listEmails.length
+    let listPay = {}
     
     if(shoppingList.length && qtdEmails){
         let valueTotal = 0
